@@ -112,6 +112,25 @@ hi String ctermfg=25 ctermbg=NONE guifg=#3c5a89 guibg=NONE guisp=NONE cterm=NONE
 hi Visual ctermfg=25 ctermbg=252 guifg=#3c5a89 guibg=#d3d2ce guisp=NONE cterm=NONE,reverse gui=NONE,reverse
 
 
+highlight BufferInactive guibg=#c3c0ba
+highlight BufferInactiveSign guibg=#c3c0ba
+highlight BufferInactiveIndex guibg=#c3c0ba
+
+highlight VertSplit    guifg=#989387 guibg=bg gui=bold cterm=bold
+
+highlight StatusLine   guifg=#989387 guibg=bg gui=bold cterm=bold
+
+highlight StatusLineNC guifg=#989387 guibg=bg gui=bold cterm=bold
+highlight TablineFill guifg=#989387 guibg=bg  gui=bold cterm=bold
+
+highlight StatusLineTerm   guifg=#989387 guibg=bg gui=bold cterm=bold
+highlight StatusLineTermNC guifg=#989387 guibg=bg gui=bold cterm=bold
+
+highlight WinSeparator guifg=#989387 guibg=bg gui=bold cterm=bold
+
+highlight CursorLine   guibg=#c3c0ba
+
+highlight EndOfBuffer guifg=bg  guibg=bg
 
 
 if has("nvim")
