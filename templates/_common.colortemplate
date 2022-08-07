@@ -1,0 +1,131 @@
+# regular text
+Bold               none   none   bold
+Conceal            none   none
+Directory          none   none   bold
+EndOfBuffer        none   none
+Ignore             none   none
+Italic             none   none   italic
+ModeMsg            none   none
+MoreMsg            none   none
+Question           none   none
+NonText            none   none
+Normal             gry3   gry0
+Terminal           none   none
+Title              none   none   bold
+Underlined         none   none   underline
+
+# soft text
+Comment            gry2   none
+CursorLineNr       gry2   none
+LineNr             gry2   none
+
+# reverse regular text
+FoldColumn         gry3   none
+PmenuSel           gry3   gry0   reverse
+SignColumn         gry3   none
+StatusLine         gry3   gry0   reverse
+StatusLineTerm     gry3   gry0   reverse
+TabLineSel         gry3   gry0   reverse
+
+# reverse soft text
+VisualNOS          gry2   gry0   reverse
+
+# reverse hard text
+Cursor             gryc   gry0   reverse
+IncSearch          gryc   gry0   reverse
+
+# highlit
+ColorColumn        none   gry1
+CursorColumn       none   gry1
+CursorLine         none   gry1
+DiffChange         none   gry1
+Folded             none   gry1
+MatchParen         gryc   gryp
+Pmenu              gry3   gry1
+QuickFixLine       none   gry1
+StatusLineNC       gry3   gry1
+StatusLineTermNC   gry3   gry1
+TabLine            gry3   gry1
+ToolbarButton      gry3   gry1   bold
+WildMenu           gry3   gry1
+
+# solid lines
+PmenuSbar          gryp   gryp
+PmenuThumb         gry3   gry3
+TabLineFill        gry1   gry1
+ToolbarLine        gry1   gry1
+VertSplit          gryp   gryp
+
+# spellcheck undercurls
+SpellBad           none   none   g=undercurl   s=sprd   t=underline
+SpellCap           none   none   g=undercurl   s=spbl   t=underline
+SpellLocal         none   none   g=undercurl   s=spcy   t=underline
+SpellRare          none   none   g=undercurl   s=spmg   t=underline
+
+# magenta types
+StorageClass       mgnt   none
+Structure          mgnt   none
+Type               mgnt   none
+Typedef            mgnt   none
+
+# reverse magenta warnings
+TooLong            mgnt   gry0   reverse
+WarningMsg         mgnt   gry0   reverse
+
+# red names
+Function           red_   none
+Identifier         red_   none
+
+# reverse red errors and diff removals
+DiffDelete         red_   gry0   reverse
+DiffRemoved        red_   gry0   reverse
+Error              red_   gry0   reverse
+ErrorMsg           red_   gry0   reverse
+
+# gold specials
+Debug              gold   none
+Delimiter          gold   none
+Special            gold   none
+SpecialChar        gold   none
+SpecialComment     gold   none
+SpecialKey         gold   none
+Tag                gold   none
+
+# reverse gold search matches and diff changes
+DiffChanged        gold   gry0   reverse
+DiffText           gold   gry0   reverse
+Search             srch   grys   reverse
+
+# green statements
+Conditional        gren   none
+Exception          gren   none
+Keyword            gren   none
+Label              gren   none
+Operator           gren   none
+Repeat             gren   none
+Statement          gren   none
+
+# reverse green diff additions
+DiffAdd            gren   gry0   reverse
+DiffAdded          gren   gry0   reverse
+
+# cyan meta-statements
+Define             cyan   none
+Include            cyan   none
+Macro              cyan   none
+PreCondit          cyan   none
+PreProc            cyan   none
+
+# reverse cyan todos
+Todo               cyan   gry0   reverse
+
+# blue constants
+Boolean            blue   none
+Character          blue   none
+Constant           blue   none
+Float              blue   none
+Number             blue   none
+String             blue   none
+
+# reverse blue visual selections
+Visual             blue   gry0   reverse
